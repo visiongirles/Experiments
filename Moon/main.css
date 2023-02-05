@@ -1,0 +1,44 @@
+#full-moon {
+  width: 100px;
+  height: 100px;
+  background: rgb(243, 243, 180);
+  border-radius: 50%;
+  /* position: absolute; */
+}
+
+#moon-1 {
+  width: 100px;
+  height: 100px;
+  border-left: 15px solid rgb(243, 243, 180);
+  border-radius: 100%;
+  /* position: absolute; */
+}
+
+#moon-2 {
+  width: 100px;
+  height: 100px;
+  border-left: 15px solid rgb(243, 243, 180);
+  border-radius: 100%;
+  transform: rotate(-180deg);
+  /* position: absolute; */
+}
+
+#half-moon-left {
+  width: 50px;
+  height: 100px;
+  background-color: rgb(243, 243, 180);
+  border-radius: 50px 0 0 50px;
+  /* position: absolute; */
+}
+
+#half-moon-right {
+  width: 50px;
+  height: 100px;
+  background-color: rgb(243, 243, 180);
+  border-radius: 0 50px 50px 0;
+  /* position: absolute; */
+}
+
+.container {
+  display: flex;
+}
